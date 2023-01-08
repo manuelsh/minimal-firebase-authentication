@@ -9,7 +9,7 @@ The motivation of this repo is that the example in the original [Firebase UI rep
 1. Create a Firebase project and enable the authentication method you want to use.
 2. Edit the login.html file by replacing the configuration parameters with your own.
 
-## Integration with webflow
+## Integration with Webflow
 
 To make it work with webflow, you need to:
 
