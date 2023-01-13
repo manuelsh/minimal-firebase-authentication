@@ -8,6 +8,7 @@ The motivation of this repo is that the example in the original [Firebase UI rep
 
 1. Create a Firebase project and enable the authentication method you want to use.
 2. Edit the login.html file by replacing the configuration parameters with your own.
+3. Add the domain that serves the page and the one that does the authentication (the `authDomain` in your `firebaseConfig`) to your firebase Google Cloud project API key restrictions. You can do that in the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials), select the firebase project, and should be added to both the `Browser key (auto created by firebase)` under API keus and the `Web Client (auto created by Google Services)`. under the section OAuth 2.0 client ID.
 
 ## Integration with Webflow
 
